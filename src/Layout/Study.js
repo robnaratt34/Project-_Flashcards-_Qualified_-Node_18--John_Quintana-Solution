@@ -27,7 +27,7 @@ function Study(){
               };
          }
           fetchData();
-     }, []);
+     }, [deckId]);
 
   return(
     <div>

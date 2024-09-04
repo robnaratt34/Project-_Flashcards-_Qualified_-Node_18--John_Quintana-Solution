@@ -34,7 +34,7 @@ function EditCard(){
         };
     }
     fetchData();
-}, []);
+}, [deckId, cardId]);
   const handleChange = ({target}) =>{
     setFormData({
       ...formData,

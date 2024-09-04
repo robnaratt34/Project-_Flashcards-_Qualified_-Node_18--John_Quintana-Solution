@@ -28,7 +28,7 @@ function Deck(){
           };
       }
       fetchData();
-  }, []);
+  }, [deckId]);
   const handleDeleteDeck = async (deck) => {
       if (
           window.confirm(

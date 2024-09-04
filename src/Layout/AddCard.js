@@ -26,7 +26,7 @@ function AddCard(){
                 };
         }
         fetchData();
-    }, []);
+    }, [deckId]);
   const handleChange = ({target}) =>{
     setFormData({
       ...formData,

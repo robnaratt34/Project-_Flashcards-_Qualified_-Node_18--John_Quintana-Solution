@@ -25,7 +25,7 @@ function EditDeck({decks}){
         };
     }
     fetchData();
-  }, []);
+  }, [deckId]);
   const handleChange = ({target}) =>{
     setDeck({
       ...deck,
